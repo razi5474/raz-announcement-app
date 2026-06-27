@@ -18,7 +18,7 @@ A Shopify app that lets store admins set an announcement banner that appears on 
 ### Setup
 
 1. Clone the repo:
-   git clone https://github.com/YOUR_USERNAME/raz-announcement-app.git
+   git clone https://github.com/razi5474/raz-announcement-app.git
    cd raz-announcement-app
 
 2. Install dependencies:
