@@ -1,0 +1,47 @@
+{% assign announcement = shop.metafields.my_app.announcement.value %}
+
+{% if announcement != blank %}
+  <div id="announcement-banner" style="
+    background-color: {{ block.settings.background_color }};
+    color: {{ block.settings.text_color }};
+    text-align: center;
+    padding: 12px 20px;
+    font-size: {{ block.settings.font_size }}px;
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+  ">
+    {{ announcement }}
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Announcement Banner",
+  "target": "head",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#FFD700"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font Size",
+      "min": 12,
+      "max": 32,
+      "step": 1,
+      "default": 16
+    }
+  ]
+}
+{% endschema %}
