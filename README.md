@@ -8,6 +8,12 @@ A Shopify app that lets store admins set an announcement banner that appears on 
 - MongoDB (audit history)
 - Theme App Extension (Liquid storefront banner)
 
+2. Deployed Application:
+https://raz-announcement-app.onrender.com
+
+3. Video Demo (Loom):
+Creating and Verifying New Administration Screen - [Watch Video](https://www.loom.com/share/8da68870f5c94fd4ab4134228e9aa964)
+
 ## How to Run Locally
 
 ### Prerequisites
